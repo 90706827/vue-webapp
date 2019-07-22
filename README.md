@@ -31,6 +31,13 @@ npm test
 npm uninstall -g @vue/cli
 npm install -g @vue/cli@3.9.3
 
+npm install -g @vue/cli-init
+vue init webpack webapp
+cd webapp
+npm run dev
+npm run build
+
+
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
