@@ -28,3 +28,8 @@ npm test
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+3.0后 vue-cli 改为 @vue/cli
+
+npm uninstall -g @vue/cli
+npm install -g @vue/cli@3.9.3
